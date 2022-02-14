@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 644956801}
   - component: {fileID: 644956800}
-  - component: {fileID: 644956799}
+  - component: {fileID: 644956802}
   m_Layer: 0
   m_Name: McLovin
   m_TagString: Untagged
@@ -225,18 +225,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &644956799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644956798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 304e20b856712401c9341623c640b712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &644956800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -297,10 +285,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644956798}
   m_LocalRotation: {x: -0, y: -0, z: 0.0018858744, w: 0.9999982}
-  m_LocalPosition: {x: -3.15, y: 0, z: 0}
+  m_LocalPosition: {x: 3.86, y: 0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.216}
+--- !u!114 &644956802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644956798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d83b00fe7bb4d0f85f25020783afed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
